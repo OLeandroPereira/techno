@@ -14,7 +14,7 @@
   </head>
   <body>
     <div id="app">
-      <section class="modal">{{ produto }}</section>
+      <section class="modal" v-if="produto">{{produto}}</section>
 
       <section class="produtos">
         <div

@@ -1,9 +1,9 @@
 [
   {
     "id": "notebook",
-    "name": "Notebook",
-    "preco": "2999",
-    "img": "./api/produtos/notebook/smartphone.jpg"
+    "nome": "Notebook ",
+    "preco": 2999,
+    "img": "./api/produtos/notebook/notebook.jpg"
   },
   {
     "id": "smartphone",

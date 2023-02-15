@@ -14,14 +14,14 @@
   </head>
   <body>
     <div id="app">
-      <section class="modal">{{ Produto }}</section>
+      <section class="modal">{{ produto }}</section>
 
       <section class="produtos">
         <div
           v-for="item in produtos"
-          @click="fetchProduto"
-          :key="produto.id"
-          item="produto"
+          @click="fetchProduto(item.id)"
+          :key="item.id"
+          class="produto"
         >
           <img :src="item.img" :alt="item.nome" class="produto_img" />
           <div class="produto_info">

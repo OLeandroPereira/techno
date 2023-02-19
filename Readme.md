@@ -42,7 +42,7 @@ techno/
 - vue.min.js: arquivo JavaScript com o framework Vue.
 <br>
 <br>
-<h1></h1>
+<h1>
 
 ## Funcionalidades
 
